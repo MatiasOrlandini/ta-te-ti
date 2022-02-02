@@ -88,6 +88,7 @@ const App = () => {
         onClick={handleClick}
       />
       <ScoreBoard scoreO={score.O} scoreX={score.X} />
+      <button className="btn-resetScores" onClick={resetScores}>Reset Scores</button>
     </div>
   );
 };
